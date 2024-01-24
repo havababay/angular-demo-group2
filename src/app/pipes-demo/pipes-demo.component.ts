@@ -11,4 +11,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   styleUrl: './pipes-demo.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class PipesDemoComponent { }
+export class PipesDemoComponent { 
+  currentDate = new Date();
+  message = "Good Night";
+}

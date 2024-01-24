@@ -8,6 +8,7 @@ import { RouterDemoComponent } from './router-demo/router-demo.component';
 import { FormsDemoComponent } from './forms-demo/forms-demo.component';
 import { PersonsListComponent } from './persons-list/persons-list.component';
 import { PersonFormComponent } from './person-form/person-form.component';
+import { PipesDemoComponent } from './pipes-demo/pipes-demo.component';
 
 export const routes: Routes = [
     {path: "binding", component: BindingComponent},
@@ -20,5 +21,6 @@ export const routes: Routes = [
     {path: "newform", component: FormsDemoComponent},
     {path: "persons", component: PersonsListComponent},
     {path: "newperson", component: PersonFormComponent},
-    {path: "person/:idString", component: PersonFormComponent}
+    {path: "person/:idString", component: PersonFormComponent},
+    {path: "pipes", component: PipesDemoComponent}
 ];
