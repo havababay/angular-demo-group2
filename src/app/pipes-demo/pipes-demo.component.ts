@@ -14,4 +14,6 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 export class PipesDemoComponent { 
   currentDate = new Date();
   message = "Good Night";
+  pi = 3.1415927;
+  completion = 0.8512;
 }

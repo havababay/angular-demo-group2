@@ -1,0 +1,15 @@
+<div>
+    <mat-form-field>
+        <mat-label>Person index</mat-label>
+        <input matInput [(ngModel)]="personIndex">
+    </mat-form-field>
+    <button
+        mat-icon-button
+        [disabled]="!personIndex"
+        (click)="getPersonDataByIndex()">
+        <mat-icon>search</mat-icon>
+    </button>
+</div>
+<div>
+    Full name : {{currentPerson?.fullName()}}
+</div>
