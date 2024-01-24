@@ -8,3 +8,19 @@
     <h3>Upper Case Pipe</h3>
     <div>{{ message | uppercase}}</div>
 </div>
+<div>
+    <h3>Decimal Pipe</h3>
+    <div>5 digits after decimal point : {{ pi | number:'1.0-5'}}
+    </div>
+    <div>5 digits before decimal point : {{ pi | number:'5.0-5'}}
+    </div>
+</div>
+<div>
+    <h3>Percent Pipe</h3>
+    <div>2 digits after decimal point : 
+        {{ completion | percent:'1.0-2'}}
+    </div>
+    <div>2 digits before decimal point : 
+        {{ completion | percent:'4.0-1'}}
+    </div>
+</div>
